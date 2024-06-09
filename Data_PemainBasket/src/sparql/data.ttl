@@ -108,12 +108,12 @@ id:P013
     item:klub "Minnesota Timberwolves".
 
 id:P014
-    item:nama "Rúben Dias";
+    item:nama "Kobe Bryan";
     item:tinggi "187cm";
     item:berat "82kg";
     item:tanggal_lahir "Mei 14, 1997";
     item:negara "Portugal";
-    item:klub "Manchester City".
+    item:klub "Lakkers".
 
 id:P015
     item:nama "Jose Alvarado";
