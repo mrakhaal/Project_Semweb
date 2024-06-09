@@ -1,0 +1,15 @@
+@prefix id: <https://datapemain.com/> .
+@prefix item: <https://datapemain.com/ns/item#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+SELECT ?nama ?tinggi ?berat ?tanggal_lahir ?negara ?klub 
+WHERE
+{ 
+    ?items
+        item:nama     ?nama ;
+        item:tinggi      ?tinggi ;
+        item:berat            ?berat ;
+        item:tanggal_lahir        ?tanggal_lahir ;
+        item:negara            ?negara ;
+        item:klub          ?klub .
+}
